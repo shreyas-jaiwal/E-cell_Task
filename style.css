@@ -439,7 +439,7 @@ input{
 }
 .form{
     align-items: center;
-    margin: 40px 50px;
+    margin: 40px 30px;
     background-color: #000;
     color: white;
     padding: 30px;
@@ -486,5 +486,10 @@ label{
 .card{
     display: grid;
     grid-template-rows: auto;
+}
+    input{
+    padding: 3spx;
+    margin: 3px;
+    border-radius: 4px;
 }
 }
